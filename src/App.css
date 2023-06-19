@@ -7,7 +7,7 @@
 }
 
 p {
-    color: black;
+    color: white;
 }
 
 a,
@@ -166,6 +166,7 @@ input[type=checkbox] {
 section h1 {
     font-size: 48px;
     text-align: center;
+    margin-bottom: 4rem;
 }
 
 .section-fotos {
@@ -222,9 +223,25 @@ section h1 {
 
 .contenedor-videos {
     display: flex;
-    margin-top: 4rem;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
     gap: 32px;
+}
+
+.video-box p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 1.5rem;
+}
+
+/* Footer */
+
+section.footer {
+    margin: 10rem 5rem 4rem;
+}
+
+.media svg {
+    font-size: 38px;
 }

@@ -7,7 +7,7 @@ const Videos = () => {
 
             <div className="contenedor-videos">
                 <div className="video-box">
-                    
+                    <p>Sesión en Vivo</p>
                     <iframe
                         width="500"
                         height="315"
@@ -19,6 +19,7 @@ const Videos = () => {
                     ></iframe>
                 </div>
                 <div className="video-box">
+                    <p>Mini Documental</p>
                     <iframe
                         width="500"
                         height="315"
@@ -30,6 +31,7 @@ const Videos = () => {
                     ></iframe>
                 </div>
                 <div className="video-box">
+                    <p>En Vivo Rancagua</p>
                     <iframe
                         width="500"
                         height="315"
