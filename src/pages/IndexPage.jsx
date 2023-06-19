@@ -1,7 +1,11 @@
 import React from "react";
+import Hero from "../components/Hero";
 
 const IndexPage = () => {
-    return <div>IndexPage</div>;
+    
+    return (
+        <Hero />
+    );
 };
 
 export default IndexPage;
