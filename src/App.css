@@ -238,8 +238,18 @@ section h1 {
 
 /* Footer */
 
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
 section.footer {
     margin: 10rem 5rem 4rem;
+}
+
+.media {
+    display: flex;
+    gap: 10px;
 }
 
 .media svg {
