@@ -95,7 +95,7 @@ const Fotos = () => {
     const handleResize = () => {
         const newWindowWidth = window.innerWidth;
 
-        if (window.innerWidth <= 900) {
+        if (windowWidth <= 900) {
             const filteredImages = images.filter((image) => image.render);
             setFilteredImages(filteredImages);
         } else {
@@ -123,7 +123,7 @@ const Fotos = () => {
                 />
             </div>
         ));
-        
+
         setImageElements(imageElements);
 
     }, [filteredImages, currentIndex]);

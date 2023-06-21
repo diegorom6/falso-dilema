@@ -2,8 +2,6 @@ import React from "react";
 import { Fade } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 
-import logo2 from "../img/logo-2.png";
-
 const Hero = () => {
     const images = [
         "https://i.imgur.com/SR5Esa1.jpg",
@@ -14,8 +12,8 @@ const Hero = () => {
     return (
         <main className="hero">
             <div className="overlay">
-                <img src={logo2} alt="Logo 2" />
-                <p>
+                {/* <img src={logo2} alt="Logo 2" /> */}
+                <p style={{marginTop: "4rem"}}>
                     Falso Dilema nace en la comuna de San Javier y Talca, Región
                     del Maule (Chile). Sus integrantes son: Sebastián Bustos en
                     la voz, Matías Valenzuela en la guitarra, Johnatan Nicolao
@@ -35,17 +33,17 @@ const Hero = () => {
             <Fade arrows={false} canSwipe={false}>
                 <div className="each-slide">
                     <div>
-                        <img src={images[0]} className="slideshow" />
+                        <img src={images[0]} alt="img1" className="slideshow" />
                     </div>
                 </div>
                 <div className="each-slide">
                     <div>
-                        <img src={images[1]} className="slideshow" />
+                        <img src={images[1]} alt="img2" className="slideshow" />
                     </div>
                 </div>
                 <div className="each-slide">
                     <div>
-                        <img src={images[2]} className="slideshow" />
+                        <img src={images[2]} alt="img3" className="slideshow" />
                     </div>
                 </div>
             </Fade>
