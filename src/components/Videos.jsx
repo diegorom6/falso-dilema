@@ -39,9 +39,6 @@ const Videos = () => {
             </div>
 
             <div className="datos-contacto">
-
-                <h2>Datos de Contacto</h2>
-
                 <h4>Contacto</h4>
                 <p>falsodilema2021@gmail.com</p>
 

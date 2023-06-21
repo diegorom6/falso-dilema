@@ -295,8 +295,12 @@ section h1 {
 }
 
 .datos-contacto h2, .datos-contacto h4, .datos-contacto p {
-    margin-top: 1rem;
+    margin-top: 2.5rem;
     text-align: center;
+}
+
+.datos-contacto h4, .datos-contacto p {
+    font-size: 24px;
 }
 
 /* Footer */
