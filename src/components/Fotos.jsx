@@ -123,9 +123,9 @@ const Fotos = () => {
                 />
             </div>
         ));
+        
         setImageElements(imageElements);
 
-        setToggler(!toggler);
     }, [filteredImages, currentIndex]);
 
     return (
