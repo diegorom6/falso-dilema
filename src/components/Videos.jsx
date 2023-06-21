@@ -13,9 +13,7 @@ const Videos = () => {
                         height="315"
                         src="https://www.youtube.com/embed/RwWWIFmnKf8"
                         title="YouTube video player"
-                        frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen
                     ></iframe>
                 </div>
                 <div className="video-box">
@@ -25,9 +23,7 @@ const Videos = () => {
                         height="315"
                         src="https://www.youtube.com/embed/NniNfrUpF6I"
                         title="YouTube video player"
-                        frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen
                     ></iframe>
                 </div>
                 <div className="video-box">
@@ -37,14 +33,24 @@ const Videos = () => {
                         height="315"
                         src="https://www.youtube.com/embed/G0XfkuRO6v0"
                         title="YouTube video player"
-                        frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen
                     ></iframe>
                 </div>
             </div>
 
-            <button className="boton">Ver más</button>
+            <div className="datos-contacto">
+
+                <h2>Datos de Contacto</h2>
+
+                <h4>Contacto</h4>
+                <p>falsodilema2021@gmail.com</p>
+
+                <h4>Representante</h4>
+                <p>Matías Valenzuela O.</p>
+
+                <h4>N° Telefónico</h4>
+                <p>+56999102907</p>
+            </div>
         </section>
     );
 };

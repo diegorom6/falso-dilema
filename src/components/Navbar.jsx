@@ -21,7 +21,7 @@ const Navbar = () => {
                     <>
                         <Link to="/">Inicio</Link>
 
-                        <li className="services">
+                        {/* <li className="services">
                             <Link className="link-chevron" to="/">Galería <FaChevronDown style={{width: "14px", marginTop: "1px"}} /></Link>
 
                             <ul className="dropdown">
@@ -32,7 +32,7 @@ const Navbar = () => {
                                     <Link to="/">Videos</Link>
                                 </li>
                             </ul>
-                        </li>
+                        </li> */}
 
                         <Link to="/">Conciertos</Link>
                     </>

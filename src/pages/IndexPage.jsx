@@ -9,9 +9,9 @@ const IndexPage = () => {
     return (
         <>
             <Hero />
+            <Reproductor />
             <Fotos />
             <Videos />
-            <Reproductor />
             <Footer />
         </>
     );
