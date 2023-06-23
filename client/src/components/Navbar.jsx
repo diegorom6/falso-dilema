@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaChevronDown } from "react-icons/fa";
 
 import logo from "../img/logo.png";
 
@@ -34,7 +33,7 @@ const Navbar = () => {
                             </ul>
                         </li> */}
 
-                        <Link to="/">Conciertos</Link>
+                        <Link to="/dates">Conciertos</Link>
                     </>
                 </div>
             </ul>

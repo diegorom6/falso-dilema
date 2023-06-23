@@ -3,7 +3,6 @@ import {
     FaTiktok,
     FaInstagram,
     FaSpotify,
-    FaSoundcloud,
     FaAmazon,
     FaDeezer,
     FaItunes,
