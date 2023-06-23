@@ -4,16 +4,25 @@ import Fechas from "../components/Fechas";
 
 const DatesPage = () => {
     const [dates, setDates] = useState([]);
+    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         axios.get(`${process.env.REACT_APP_API_URL}/dates`)
             .then(function (response) {
                 setDates(response.data);
+
+                setTimeout(() => {
+                    setLoading(false);
+                }, 2000)
             })
             .catch(function (error) {
                 console.log(error);
             });
     }, []);
+
+    if (loading) {
+        return <div className="cargando">Cargando...</div>;
+    }
 
     return (
         <div className="dates-container">

@@ -10,6 +10,7 @@ const PanelPage = () => {
     const [city, setCity] = useState("");
     const [link, setLink] = useState("");
     const [permiso, setPermiso] = useState(false);
+    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         const urlParam = new URLSearchParams(window.location.search).get(
@@ -33,6 +34,10 @@ const PanelPage = () => {
             })
             .then(function (response) {
                 setDates(response.data);
+
+                setTimeout(() => {
+                    setLoading(false);
+                }, 2000)
             })
             .catch(function (error) {
                 console.log(error);
@@ -60,7 +65,9 @@ const PanelPage = () => {
             });
     }
 
-    console.log(permiso)
+    if (loading) {
+        return <div className="cargando">Cargando...</div>; // Muestra el loader mientras se carga la data
+    }
 
     return (
         <div className="dates-container">

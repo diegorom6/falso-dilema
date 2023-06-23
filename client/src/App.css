@@ -458,3 +458,11 @@ input {
 input::placeholder {
     color: white;
 }
+
+.cargando {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    margin-top: 15rem;
+}
