@@ -5,8 +5,8 @@ const Reproductor = () => {
         <>
             <section className="video-embed">
                 <iframe
-                    width="80%"
-                    height="700"
+                    width="1200"
+                    height="515"
                     src="https://www.youtube.com/embed/N-m7xCIN_3w"
                     title="YouTube video player"
                     style={{ border: "0px" }}
