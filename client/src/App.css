@@ -210,6 +210,13 @@ input[type=checkbox] {
     }
 }
 
+/* Sección YT Embed */
+
+.video-embed {
+    display: flex;
+    justify-content: center;
+}
+
 /* Seccion Fotos */
 
 section h1 {
